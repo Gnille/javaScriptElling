@@ -1,0 +1,80 @@
+
+body {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px; 
+}
+
+
+#input-headline-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    width: 100%;
+}
+
+
+#headline {
+    
+    margin: 0;
+}
+
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+
+#displayText .itemContainer:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+#displayText .itemContainer:nth-child(even) {
+    background-color: white;
+}
+
+
+#displayText {
+    padding: 10px;
+    margin: 5px;
+    width: 14.5%;
+    margin-left: 154px;
+}
+
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.textContainer {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    flex-grow: 1; 
+}
+
+
+.list-item {
+    margin: 0;
+    padding: 0;
+}
+
+
+.increment-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
